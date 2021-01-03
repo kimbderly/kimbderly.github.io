@@ -1,0 +1,117 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.documentElement.className = "js";
+        var supportsCssVars = function() {
+            var e, t = document.createElement("style");
+            return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
+        };
+        supportsCssVars() || alert("Please view this in a modern browser that supports CSS Variables.");
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/lwc3axy.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|IBM+Plex+Sans:500" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+</head>
+
+<body>
+    <!-- loader  -->
+    <div class="wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <div class="container">
+
+        <div class="frame">
+            <a class="frame__home">
+                <span class="frame__home-title">JF</span>
+                <span class="frame__home-sub">2020</span>
+            </a>
+            <div class="frame__title-wrap">
+                <h1 class="frame__title">Projects</h1>
+                <div class="frame__links">
+                    <a href="https://tympanus.net/Tutorials/ImageGridMotionEffect/index.html">Web Apps</a>
+                    <a href="https://tympanus.net/codrops/?p=50136">Standalone Apps</a>
+                    <a href="https://github.com/codrops/TypographyMotion/">Creative Coding</a>
+                </div>
+            </div>
+            <a class="frame__about">
+                <span class="frame__about-item frame__about-item--current">About</span>
+                <span class="frame__about-item">Close</span>
+            </a>
+        </div>
+        <div class="content">
+            <div class="content__text">
+                <span class="content__text-inner">Kimberly Lee</span>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- <div class="container intro">
+        <div class="intro-box">
+            <span class="name">Kimberly</span>
+            <span class="writeup">Still very lost in this tech world.</span>
+        </div>
+
+    </div>
+
+    <div class="container main">
+        <span class="header">
+            <div>Education</div>
+        </span>
+        <ul>
+            <li>
+                <span class="year">2019 - current</span>
+                <span class="title">B. Eng. ICT (Software Engineering)</span>
+                <span class="details">Singapore Institute of Technology</span>
+            </li>
+        </ul>
+        <span class="header">
+            <div>Web Projects</div>
+        </span>
+        <ul>
+            <li>
+                <span class="year">2020</span>
+                <span class="project-name">HDB Explorer</span>
+            </li>
+            <li>
+                <span class="year">2020</span>
+                <span class="project-name">Social Media infused Travel Planner</span>
+            </li>
+        </ul>
+        </ul>
+        <span class="header">
+            <div>Standalone Applications</div>
+        </span>
+        <ul>
+            <li>
+                <span class="year">2020</span>
+                <span class="project-name">Job Finder Application</span>
+            </li>
+            <li>
+                <span class="year">2020</span>
+                <span class="project-name">Python Transport Application</span>
+            </li>
+        </ul>
+    </div> -->
+    <svg class="cursor" width="80" height="80" viewBox="0 0 80 80">
+			<circle class="cursor__inner" cx="40" cy="40" r="20"/>
+		</svg>
+</body>
+
+<script src="js/blotter.min.js"></script>
+<script src="js/materials/liquidDistortMaterial.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/cursor.js"></script>
+
+</html>
