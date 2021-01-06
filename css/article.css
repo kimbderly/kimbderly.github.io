@@ -109,7 +109,8 @@ footer,
 .slide__scroll-info,
 .projects__paragraph,
 .video-player__caption {
-    font-family: "Maison Neue"
+    /* font-family: "Maison Neue" */
+    font-family: 'Roboto Mono';
 }
 
 .serif,
