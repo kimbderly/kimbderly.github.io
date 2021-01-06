@@ -1,23 +1,28 @@
-@font-face {font-family: "Maison Neue";
-    src: url("https://db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.eot"); /* IE9*/
+@font-face {
+    font-family: "Maison Neue";
+    src: url("https://db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.eot");
+    /* IE9*/
     src: url("https://db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
     url("https://db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.woff2") format("woff2"), /* chrome firefox */
     url("https://db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.woff") format("woff"), /* chrome firefox */
     url("https://db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("https://db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.svg#Maison Neue") format("svg"); /* iOS 4.1- */
+    url("https://db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.svg#Maison Neue") format("svg");
+    /* iOS 4.1- */
 }
 
-@font-face {font-family: "Bodoni";
-    src: url("https://db.onlinewebfonts.com/t/72c6d6dde263ab535d48874154051fd5.eot"); /* IE9*/
+@font-face {
+    font-family: "Bodoni";
+    src: url("https://db.onlinewebfonts.com/t/72c6d6dde263ab535d48874154051fd5.eot");
+    /* IE9*/
     src: url("https://db.onlinewebfonts.com/t/72c6d6dde263ab535d48874154051fd5.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
     url("https://db.onlinewebfonts.com/t/72c6d6dde263ab535d48874154051fd5.woff2") format("woff2"), /* chrome firefox */
     url("https://db.onlinewebfonts.com/t/72c6d6dde263ab535d48874154051fd5.woff") format("woff"), /* chrome firefox */
     url("https://db.onlinewebfonts.com/t/72c6d6dde263ab535d48874154051fd5.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("https://db.onlinewebfonts.com/t/72c6d6dde263ab535d48874154051fd5.svg#Bodoni") format("svg"); /* iOS 4.1- */
+    url("https://db.onlinewebfonts.com/t/72c6d6dde263ab535d48874154051fd5.svg#Bodoni") format("svg");
+    /* iOS 4.1- */
 }
 
-html,
-body {
+html, body {
     width: 100%;
     height: 100%;
     font-size: 100%;
@@ -29,11 +34,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
     -webkit-font-smoothing: antialiased;
-    background-color:#000;
+    background-color: #000;
     overflow: auto;
 }
 
-section{
+section {
     width: 100%;
     height: 100%;
 }
@@ -65,8 +70,7 @@ a:focus {
     -moz-outline-style: none !important
 }
 
-a:hover,
-a:active {
+a:hover, a:active {
     outline: 0
 }
 
@@ -78,10 +82,7 @@ a img {
     outline: 0
 }
 
-
-ol,
-ul,
-li {
+ol, ul, li {
     display: block;
     list-style: none;
     -webkit-margin-before: 0;
@@ -96,40 +97,26 @@ table {
     border-spacing: 0
 }
 
-strong,
-em,
-p {
+strong, em, p {
     display: inline-block
 }
 
-.mono,
-header,
-footer,
-.slide__text,
-.slide__scroll-info,
-.projects__paragraph,
-.video-player__caption {
+.mono, header, footer, .slide__text, .slide__scroll-info, .projects__paragraph, .video-player__caption {
     font-family: "Maison Neue"
     /* font-family: 'Roboto Mono'; */
 }
 
-.serif,
-.title,
-.slide__title,
-.projects__title__main {
+.serif, .title, .slide__title, .projects__title__main {
     font-family: "Bodoni Book"
 }
 
-
-.title,
-.slide__title {
+.title, .slide__title {
     text-transform: uppercase
 }
 
-
 #main-container {
     width: 100%;
-    height: 120%;
+    height: 170%;
     z-index: 1;
 }
 
@@ -144,21 +131,17 @@ footer,
     transform: scale(1)
 }
 
-.border--top,
-.border--bottom {
+.border--top, .border--bottom {
     left: 0;
     width: 100%;
     height: 15px
 }
 
-
-.border--left,
-.border--right {
+.border--left, .border--right {
     top: 0;
     width: 15px;
     height: 100%
 }
-
 
 .border--top {
     top: 0;
@@ -188,7 +171,6 @@ footer,
     transform-origin: right
 }
 
-
 /* .slider__slide {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -205,7 +187,7 @@ footer,
 .slide__content {
     color: #fff;
     text-align: center;
-        display: -webkit-flex;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-justify-content: center;
@@ -217,12 +199,10 @@ footer,
     left: 15%;
 }
 
-
-
 .slide__title {
     font-size: 70px;
     line-height: .8em;
-    top:40;
+    top: 40;
     position: absolute;
     left: 0px;
     width: 50px;
@@ -241,16 +221,16 @@ footer,
     left: 440px;
 }
 
-
 /* .slide__text--description{
     width: 1000px;
 } */
+
 /* .slide__description{
     width: 80px;
 } */
 
 .slide__description-title {
-    margin-bottom: 21px
+    margin-bottom: 21px;
 }
 
 /* .slide__description-title:after {
@@ -279,7 +259,7 @@ footer,
     transition: opacity 650ms cubic-bezier(0.55, 0, 0.1, 1)
 }
 
-.slide__tools{
+.slide__tools {
     top: -250px;
     left: 380px;
 }
@@ -318,9 +298,7 @@ footer,
     transition: transform cubic-bezier(0.55, 0, 0.1, 1) 0.5s
 }
 
-.slide__button-view:active,
-.slide__button-view:focus,
-.slide__button-view:visited {
+.slide__button-view:active, .slide__button-view:focus, .slide__button-view:visited {
     color: #fff
 }
 
@@ -351,15 +329,13 @@ footer,
     transform: scaleX(0.5) translate3d(0, 0, 0)
 }
 
-
-.project__description
-{
+.project__description {
     max-width: 62.5%;
     transition: -webkit-transform 2s cubic-bezier(0.19, 1, 0.22, 1), opacity 1s cubic-bezier(0.19, 1, 0.22, 1);
     transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1), opacity 1s cubic-bezier(0.19, 1, 0.22, 1);
     transition-delay: 0.3s;
     text-align: left;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .project__description .slide__title {
@@ -388,4 +364,84 @@ footer,
     opacity: .5
 }
 
-/* media gallery */
+/* video */
+
+video {
+    left: 250px;
+}
+
+.video-caption {
+    color: #fff;
+    font-family: "Maison Neue";
+    font-size: small;
+    text-align: left;
+}
+
+/* back */
+
+.hidden {
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+
+.codrops-icon {
+    text-decoration: none;
+    color: #ff3d53;
+    outline: none;
+    transition: color 0.2s;
+}
+
+.codrops-icon:hover, .codrops-icon:focus {
+    color: #fff;
+}
+
+.codrops-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 1.5em 3.5em 4em;
+    text-align: left;
+}
+
+.codrops-links {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.codrops-links::after {
+    /* content: ''; */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 1px;
+    height: 60%;
+    background: #b0adad;
+    /* transform: rotate3d(0, 0, 1, 22.5deg); */
+}
+
+.codrops-icon {
+    display: inline-block;
+    margin: 0.25em 0 0.25em 0.25em;
+    padding: 0.35em 0 0.35em 0.35em;
+}
+
+.codrops-icon:first-child {
+    margin: 0.25em 0.25em 0.25em 0;
+    padding: 0.35em 0.35em 0.35em 0;
+}
+
+.icon {
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 auto;
+    fill: currentColor;
+}
