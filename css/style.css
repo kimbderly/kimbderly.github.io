@@ -7,9 +7,7 @@ html {
     /* overflow: hidden; */
 }
 
-*,
-*::after,
-*::before {
+*, *::after, *::before {
     box-sizing: border-box;
 }
 
@@ -22,7 +20,7 @@ body {
     --color-text: #000;
     --color-bg: #faf5e3;
     --color-link: #8d561f;
-    --color-link-hover: #000;
+    --color-link-hover: #8d561f;
     color: var(--color-text);
     background-color: var(--color-bg);
     --cursor-stroke: none;
@@ -35,18 +33,16 @@ body {
     overflow-y: scroll;
 }
 
-
 /* links */
 
 a {
     text-decoration: none;
-    color: var(--color-link);
+    color: var(--color-text);
     outline: none;
     cursor: pointer;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
     color: var(--color-link-hover);
     outline: none;
     text-decoration: none;
@@ -55,7 +51,6 @@ a:focus {
 em {
     font-weight: 500;
 }
-
 
 /* frame */
 
@@ -113,7 +108,6 @@ em {
     display: inline-block;
 }
 
-
 /* loader */
 
 .wrapper {
@@ -134,7 +128,6 @@ em {
     z-index: 2;
     transform: translate(-50%, -50%);
 }
-
 
 /* blotter */
 

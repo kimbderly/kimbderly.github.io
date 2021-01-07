@@ -1,0 +1,88 @@
+<html class="en" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Projects | Smart Pill Box</title>
+    <link rel="stylesheet" type="text/css" href="css/article.css" />
+</head>
+
+<body style="pointer-events: all;">
+    <svg class="hidden">
+        <symbol id="icon-arrow" viewBox="0 0 24 24">
+            <title>arrow</title>
+            <polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 " />
+        </symbol>
+    </svg>
+
+    <header class="codrops-header">
+        <div class="codrops-links">
+            <a class="codrops-icon codrops-icon--prev" href="projects.html" title="Projects"><svg
+                    class="icon icon--arrow">
+                    <use xlink:href="#icon-arrow"></use>
+                </svg>Back</a>
+        </div>
+    </header>
+    <div>
+        <div class="border border--top"></div>
+        <div class="border border--right"></div>
+        <div class="border border--bottom"></div>
+        <div class="border border--left"></div>
+    </div>
+    <div id="main-container" style="height: 150%;">
+        <section class="project">
+            <div class="slider__slide" style="visibility: inherit; opacity: 1;">
+                <div class="slide__content project__description">
+                    <div class="slide__title" style="color:;">Remember to take your <br> pills!</div>
+
+                    <div class="slide__text  slide__text--description ">
+
+                        <div class="slide__description slide__text__column">In collaboration with 3 others, the Smart Pill
+                        Box  relies on 2 MSP432 Microcontrollers to remind users to take their medication at fixed intervals. A buzzer was used to remind the user while light and weight
+                        sensors were used to detect if the user had taken the medication. A Wi-Fi component was implemented to send an email to
+                        caregivers if the user forgets to eat their medication.<br> I²C Communication was implemented to trigger the weight reading of the pill box.
+                        </div>
+
+                        <div class="slide__role slide__text__column">
+
+                            <h3 class="slide__description-title">MY ROLE</h3>
+
+                            <ul class="slide__description-list">
+                                <li class="slide__description-list-el">Algorithm for HX711 Load Cell Amplifier <br> &amp; Strain
+                                Gauge</li>
+                                <li class="slide__description-list-el">I²C Communication between both
+                                MSP432</li>
+                                <li class="slide__description-list-el">FreeRTOS Queue &amp; Tasks</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="slide__tools slide__text__column" style="top: -100px;">
+                            <h3 class="slide__description-title">TOOLS</h3>
+
+                            <ul class="slide__description-list">
+                                <li class="slide__description-list-el">
+                                    Code Composer Studio 10.0
+                                </li>
+                                <li class="slide__description-list-el">
+                                    C
+                                </li>
+                                <li class="slide__description-list-el">
+                                    MSP432 DriverLib &amp; FreeRTOS
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <video width="1000" controls>
+                    <source src="video/smart-pill.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+                <span class="video-caption" style="left: 100px;top:20px">Video by Reynard</span>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
