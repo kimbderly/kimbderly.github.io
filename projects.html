@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/projects.css">
     <script>
         document.documentElement.className = "js";
-        var supportsCssVars = function() {
+        var supportsCssVars = function () {
             var e, t = document.createElement("style");
             return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
         };
@@ -48,8 +48,9 @@
 
         <section class="content">
             <h2 class="content__title" id="web_apps">WEB APPS</h2>
-            <div class="grid grid--effect-vega">
-                <a href="hdb-explorer.html" class="grid__item grid__item--c1">
+            <div class="grid grid--effect-altair">
+                <a href="hdb-explorer.html" class="grid__item grid__item--c1" style="
+    top: 16px;">
                     <div class="stack">
                         <div class="stack__deco"></div>
                         <div class="stack__deco"></div>
@@ -102,8 +103,10 @@
 
         <section class="content">
             <h2 class="content__title" id="standalone_apps">STANDALONE APPS</h2>
-            <div class="grid grid--effect-vega">
-                <a href="one-route.html" class="grid__item grid__item--c1">
+            <div class="grid grid--effect-altair">
+                <a href="one-route.html" class="grid__item grid__item--c1" style="
+    bottom: 9px;
+">
                     <div class="stack">
                         <div class="stack__deco"></div>
                         <div class="stack__deco"></div>
@@ -182,35 +185,35 @@
 <script src="js/anime.min.js"></script>
 <script src="js/projects.js"></script>
 <script>
-    (function() {
-        [].slice.call(document.querySelectorAll('.grid--effect-vega > .grid__item')).forEach(function(stackEl) {
+    (function () {
+        [].slice.call(document.querySelectorAll('.grid--effect-vega > .grid__item')).forEach(function (stackEl) {
             new VegaFx(stackEl);
         });
-        [].slice.call(document.querySelectorAll('.grid--effect-castor > .grid__item')).forEach(function(stackEl) {
+        [].slice.call(document.querySelectorAll('.grid--effect-castor > .grid__item')).forEach(function (stackEl) {
             new CastorFx(stackEl);
         });
-        [].slice.call(document.querySelectorAll('.grid--effect-hamal > .grid__item')).forEach(function(stackEl) {
+        [].slice.call(document.querySelectorAll('.grid--effect-hamal > .grid__item')).forEach(function (stackEl) {
             new HamalFx(stackEl);
         });
-        [].slice.call(document.querySelectorAll('.grid--effect-polaris > .grid__item')).forEach(function(stackEl) {
+        [].slice.call(document.querySelectorAll('.grid--effect-polaris > .grid__item')).forEach(function (stackEl) {
             new PolarisFx(stackEl);
         });
-        [].slice.call(document.querySelectorAll('.grid--effect-alphard > .grid__item')).forEach(function(stackEl) {
+        [].slice.call(document.querySelectorAll('.grid--effect-alphard > .grid__item')).forEach(function (stackEl) {
             new AlphardFx(stackEl);
         });
-        [].slice.call(document.querySelectorAll('.grid--effect-altair > .grid__item')).forEach(function(stackEl) {
+        [].slice.call(document.querySelectorAll('.grid--effect-altair > .grid__item')).forEach(function (stackEl) {
             new AltairFx(stackEl);
         });
-        [].slice.call(document.querySelectorAll('.grid--effect-rigel > .grid__item')).forEach(function(stackEl) {
+        [].slice.call(document.querySelectorAll('.grid--effect-rigel > .grid__item')).forEach(function (stackEl) {
             new RigelFx(stackEl);
         });
-        [].slice.call(document.querySelectorAll('.grid--effect-canopus > .grid__item')).forEach(function(stackEl) {
+        [].slice.call(document.querySelectorAll('.grid--effect-canopus > .grid__item')).forEach(function (stackEl) {
             new CanopusFx(stackEl);
         });
-        [].slice.call(document.querySelectorAll('.grid--effect-pollux > .grid__item')).forEach(function(stackEl) {
+        [].slice.call(document.querySelectorAll('.grid--effect-pollux > .grid__item')).forEach(function (stackEl) {
             new PolluxFx(stackEl);
         });
-        [].slice.call(document.querySelectorAll('.grid--effect-deneb > .grid__item')).forEach(function(stackEl) {
+        [].slice.call(document.querySelectorAll('.grid--effect-deneb > .grid__item')).forEach(function (stackEl) {
             new DenebFx(stackEl);
         });
     })();

@@ -99,7 +99,7 @@ a.frame__home:hover, a.frame__home:focus, a.frame__links:hover, a.frame__links:f
 }
 
 .grid__item--c3, .grid__item--c3:hover, .grid__item--c3:focus {
-    color: #f7f295;
+    color: #CB48B7;
 }
 
 .stack {
@@ -201,9 +201,16 @@ a.frame__home:hover, a.frame__home:focus, a.frame__links:hover, a.frame__links:f
 }
 
 /* Individual effects */
+/* Altair */
 
-/* Vega */
+.grid--effect-altair {
+    perspective-origin: 50% -50%;
+}
 
-.grid--effect-vega .column {
+.grid--effect-altair .column {
     opacity: 1;
+}
+
+.grid--effect-altair .stack__figure, .grid--effect-altair .stack__deco {
+    transform-origin: 50% 100%;
 }
