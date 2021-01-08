@@ -4,6 +4,7 @@ TweenMax.to(".wrapper", 2, {
     delay: 3
 })
 
+
 var tl = new TimelineMax();
 tl.from(".loader", 1, {
     scaleY: "0%",
@@ -24,16 +25,16 @@ tl.to(".loader", 1, {
 // var textWrapper = document.querySelector('.header-1');
 // textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-// anime.timeline()
-//     .add({
-//         targets: '.header-1 .letter',
-//         translateY: [200, 0],
-//         translateZ: 0,
-//         opacity: [0, 1],
-//         easing: "easeOutExpo",
-//         duration: 2000,
-//         delay: (el, i) => 4800 + 50 * i
-//     });
+anime.timeline()
+    .add({
+        targets: '.container',
+        translateY: [200, 0],
+        // translateZ: 0,
+        opacity: [0, 1],
+        easing: "easeOutExpo",
+        // duration: 2000,
+        // delay: (el, i) => 4800 + 50 * i
+    });
 
 // var textWrapper = document.querySelector('.header-2');
 // textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");

@@ -1,20 +1,33 @@
 /* a {
-    text-decoration: none;
-    color: #ff3d53;
-    outline: none;
-    transition: color 0.2s;
-} */
-
-
-/* a:hover,
-a:focus {
     color: #fff;
 } */
 
+/* a:hover, a:focus {
+    color: #2D3047;
+    outline: none;
+    text-decoration: none;
+    opacity: .5;
+    transition: opacity 650ms cubic-bezier(0.55, 0, 0.1, 1);
+} */
+
 body {
-    background: #37373e;
+    background: #F6F5AE;
+    /* maybe C8E0F4 (blue) or F6F5AE (yellow) */
 }
 
+/* header */
+
+/* a.frame__home {
+    color: #fff;
+} */
+
+a.frame__home:hover, a.frame__home:focus, a.frame__links:hover, a.frame__links:focus, a.frame__about:hover, a.frame__about:focus {
+    color: #2D3047;
+    outline: none;
+    text-decoration: none;
+    opacity: .5;
+    transition: opacity 650ms cubic-bezier(0.55, 0, 0.1, 1);
+}
 
 /* Content */
 
@@ -46,9 +59,8 @@ body {
     left: 0.1em;
     width: 5em;
     margin: 0.75em 0;
-    color: #b0adad;
+    color: #2D3047;
 }
-
 
 /* Grid */
 
@@ -74,26 +86,19 @@ body {
     transform-style: preserve-3d;
 }
 
-.grid__item:hover,
-.grid__item:focus {
+.grid__item:hover, .grid__item:focus {
     outline: none;
 }
 
-.grid__item--c1,
-.grid__item--c1:hover,
-.grid__item--c1:focus {
+.grid__item--c1, .grid__item--c1:hover, .grid__item--c1:focus {
     color: #52649e;
 }
 
-.grid__item--c2,
-.grid__item--c2:hover,
-.grid__item--c2:focus {
+.grid__item--c2, .grid__item--c2:hover, .grid__item--c2:focus {
     color: #ee7074;
 }
 
-.grid__item--c3,
-.grid__item--c3:hover,
-.grid__item--c3:focus {
+.grid__item--c3, .grid__item--c3:hover, .grid__item--c3:focus {
     color: #f7f295;
 }
 
@@ -161,7 +166,8 @@ body {
     width: 100%;
     margin: 1em 0;
     text-align: left;
-    color: #fff;
+    color: #2D3047;
+    /* font-family: 'Overpass Mono', monospace; */
 }
 
 .column {
@@ -181,7 +187,8 @@ body {
 .column__text {
     font-size: 0.85em;
     display: block;
-    color: #fff;
+    color: #2D3047;
+    /* font-family: 'Overpass Mono', monospace; */
 }
 
 .column--left .column__text {
@@ -189,12 +196,11 @@ body {
 }
 
 .column--right .column__text {
-    color: #b0adad;
+    color: #688E26;
+    /* font-family: 'Overpass Mono', monospace; */
 }
 
-
 /* Individual effects */
-
 
 /* Vega */
 
