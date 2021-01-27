@@ -100,6 +100,10 @@ em {
     color: var(--color-text);
 }
 
+.frame__about.frame__github {
+    margin-right: 100px;
+}
+
 .frame__about-item {
     display: none;
 }
